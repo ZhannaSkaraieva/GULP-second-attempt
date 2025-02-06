@@ -1,18 +1,19 @@
-$bg-color: hsl(175, 100%, 50%);
+$bg-color: blue;
 
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color:$bg-color;
-  color: #333;
+  background-color: $bg-color ;
+  
 }
 
-  h1 {
-    font-size: 4em;
-    color: #2c3e50;
-  }
+h1 {
+  font-size: 4em;
+  color: red;
+}
 
-  h2 {
-    line-height: 1.6;
-  }
+h2 {
+  line-height: 1.6;
+}  
+  

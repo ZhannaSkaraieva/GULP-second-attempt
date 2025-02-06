@@ -70,7 +70,7 @@ function html() {
 function watch() {
     browserSync.init({ // Инициализируем локальный сервер
         server: {
-            baseDir: './dist' // Базовая директория сервера
+            baseDir: '/dist' // Базовая директория сервера
         }
     });
     gulp.watch(paths.styles.src, styles); // Следим за изменениями SASS файлов
